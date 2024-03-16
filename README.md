@@ -1,9 +1,11 @@
+![ui](image/ui.png)
+
 👉 **Clonar el proyecto desde el repositorio:**
 
 Primero, asegúrate de tener Git instalado en tu sistema. Luego, ejecuta el siguiente comando en tu terminal para clonar el repositorio de tu proyecto Django:
 
 ```bash
-git clone <url_del_repositorio>
+git clone git@github.com:xvipj/X-tube.git
 ```
 
 👉 **Instalar los paquetes del archivo `requirements.txt`:**
