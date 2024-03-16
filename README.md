@@ -1,5 +1,3 @@
-# Ejecutar un proyecto de Django sin aplicar migraciones
-
 👉 **Clonar el proyecto desde el repositorio:**
 
 Primero, asegúrate de tener Git instalado en tu sistema. Luego, ejecuta el siguiente comando en tu terminal para clonar el repositorio de tu proyecto Django:
