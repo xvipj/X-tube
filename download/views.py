@@ -5,7 +5,7 @@ from pytube import YouTube
 def download_video(request):
     if request.method == 'POST':
         enlace_video = request.POST['enlace_video']
-        ruta_descarga = 'static/videos/'  # Ajusta según tu configuración
+        ruta_descarga = 'videos/'  # Ajusta según tu configuración
         try:
             youtube = YouTube(enlace_video)
             stream = youtube.streams.get_highest_resolution()
