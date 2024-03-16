@@ -11,8 +11,8 @@ def download_video(request):
             stream = youtube.streams.get_highest_resolution()
             stream.download(ruta_descarga)
             mensaje = "¡Vídeo descargado correctamente!"
-        except Exception as e:
-            mensaje = f"Error al descargar: {e}"
+        except Exception:
+            mensaje = "ingrese la url"
 
         return render(request, 'download.html', {'mensaje': mensaje})
 

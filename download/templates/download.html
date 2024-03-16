@@ -1,12 +1,16 @@
 {% extends 'base.html' %}
 
+{% block title %}X-tube download{% endblock title %}
+
 {% block content %}
-<h1>Descarga de vídeos</h1>
-<form method="post">
-    {% csrf_token %}
-    <label for="enlace_video">Enlace del vídeo:</label>
-    <input type="text" name="enlace_video" id="enlace_video">
-    <button type="submit">Descargar</button>
-</form>
-<p>{{ mensaje }}</p>
+<div class="container-download">
+    <form method="post">
+        <h1>X-tube</h1>
+        {% csrf_token %}
+        <label for="enlace_video">Enlace del vídeo:</label>
+        <input type="text" name="enlace_video" id="enlace_video">
+        <button type="submit">Descargar</button>
+        <p>{{ mensaje }}</p>
+    </form>
+</div>
 {% endblock %}
