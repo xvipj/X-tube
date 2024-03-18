@@ -1,3 +1,5 @@
+Estaba harto de las interminables páginas de descarga de videos plagadas de anuncios, así que decidí tomar cartas en el asunto y crear mi propio sistema de descarga de videos de YouTube: X-Tube. 🚀
+
 ![ui](image/ui.png)
 
 👉 **Clonar el proyecto desde el repositorio:**
