@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from pytube import YouTube
+from pytubefix import YouTube
 
 # Create your views here.
 def download_video(request):

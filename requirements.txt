@@ -1,5 +1,5 @@
-asgiref==3.7.2
-Django==5.0.3
-pytube==15.0.0
-sqlparse==0.4.4
-tzdata==2024.1
+asgiref==3.8.1
+Django==5.1.4
+pytubefix==8.8.1
+sqlparse==0.5.3
+tzdata==2024.2
